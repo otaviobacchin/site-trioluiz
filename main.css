@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/Fundo_TrioLuiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    font-family: 'Rubik', sans-serif;
+}
+
+body h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    padding: auto;
+    background-color: rgb(127, 64, 25);
+    color: rgb(252, 254, 255);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+header img {
+    object-fit: cover;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 32px;
+}
+
+header nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    border-radius: 20px;
+    background-color:rgb(56, 26, 9);
+    padding: 12px 12px;
+}
+
+header a:hover {
+    background-color: rgba(122, 80, 53, 0.876)
+}
+
+section {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles,
+.descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+
+.articles h1,
+.descricao h1,
+.container h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 1px rgba(78, 39, 15, 0.891);
+    margin-bottom: 16px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.articles p,
+.descricao p {
+    border-radius: 20px;
+    background-color:rgba(87, 44, 17, 0.876);
+    padding: 16px 16px;
+}
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+article img {
+    height: 300px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 4px solid rgb(78, 39, 15);
+    border-radius: 20px;
+    padding: 0;
+    width: 150px;
+}
+
+.descricao {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.social-links img {
+    margin-top: 10px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    text-align: center;
+}
+
+#contato {
+    margin-top: 50px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;   
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color:rgb(127, 64, 25);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(181, 110, 65);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(56, 26, 9)
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
